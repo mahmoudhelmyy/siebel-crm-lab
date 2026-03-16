@@ -9,7 +9,7 @@ Complete lab environment for Siebel CRM v25.12 (IP2019) on Oracle Linux 8 + Orac
 | Node    | FQDN                  | IP              | Role                          | Ports       |
 |---------|-----------------------|-----------------|-------------------------------|-------------|
 | siebdb  | siebdb.lab.helmy      | 192.168.56.10   | Oracle DB 19c                 | 1521        |
-| siebgw  | siebgw.lab.helmy      | 192.168.56.102  | Cloud Gateway + ZooKeeper     | 2320, 8090  |
+| siebgw  | siebgw.lab.helmy      | 192.168.56.102  | Cloud Gateway + ZooKeeper     | 2320, 8443  |
 | siebapp | siebapp.lab.helmy     | 192.168.56.103  | App Server + DB Config Utils  | 8443, 2321  |
 | siebai  | siebai.lab.helmy      | 192.168.56.104  | Application Interface (SMC)   | 8443, 8080  |
 
