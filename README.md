@@ -1,6 +1,6 @@
 # Siebel CRM v25.12 -- 4-Node Vagrant Lab
 
-**Author:** Mahmoud Helmy -- Senior Siebel Specialist, Vodafone Egypt
+**Author:** Mahmoud Helmy
 
 Complete lab environment for Siebel CRM v25.12 (IP2019) on Oracle Linux 8 + Oracle DB 19c.
 
@@ -69,5 +69,3 @@ Strict order: DB -> Gateway -> Enterprise -> App Server -> App Interface
 | ORA-06550 grantusr.sql | Bare DDL in PL/SQL | Wrap ALTER USER in EXECUTE IMMEDIATE |
 | ODBC IM002 error | Wrong ODBCINI path | export ODBCINI=/home/siebel/.odbc.ini |
 | siebapp1 crash restart | Stale shm/osdf files | Move stale files before start_server |
-
-*Built from real production experience at Vodafone Egypt.*
